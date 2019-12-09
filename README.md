@@ -1,11 +1,15 @@
 This is a mock health data generator.
 
-The objective is to create mock data so that companies may proceed to development of applications without needing access to actual real patients data.
+The objective is to create synthetic data so that developers may proceed to development of medical tech applications without needing access to actual patients data. Therefore, budding medtech entrepreeurs can circumvent the need for bureaucratic redtape in developing prototypes.
 
-The data being generator are:
+The synthetic data being generated are:
 
 - Nursing Observations
 - Temperature
 - Blood sugar levels
+- Biochemical markers - including Urea and Electrolytes, Liver Function Tests
+- Blood counts and microscopy
 
-It is if hope that this will be Phase 1 of an ongoing project. To create a proptotype that utilises machine learning to make rapid moment-by-moment clinical decicisions. Also, to help supplement as well as justify clinical decisions.
+The beauty of a lot of human parameters and markers, is in its parametric character (with a normal distribution) or at least its ordinal character (i.e. ranking). Therefore, there is some sort of linear-relationship even if these relationships can multi-dimensional and complex.
+
+It is of hope that this will be Phase-1 of an ongoing project. Eventually, the aim is to create a proptotype that utilises machine learning to make rapid moment-by-moment clinical decicisions. Also, to help supplement as well as justify clinical decisions.
