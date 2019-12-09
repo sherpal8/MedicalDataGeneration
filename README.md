@@ -1,6 +1,6 @@
 This is a mock health data generator.
 
-The objective is to create synthetic data so that developers may proceed to development of medical tech applications without needing access to actual patients data. Therefore, budding medtech entrepreeurs can circumvent the need for bureaucratic redtape in developing prototypes.
+The objective is to create synthetic data so that developers may proceed with the development of medical tech applications without needing access to actual patient data. Therefore, budding medtech entrepreeurs can circumvent the need for bureaucratic redtape with actual patient access to develop prototypes.
 
 The synthetic data being generated are:
 
