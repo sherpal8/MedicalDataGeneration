@@ -1,8 +1,9 @@
-const { nursingObsGenerator } = require("./data-generator/nursingObsGenerator");
-const {
-  temperatureGenerator
-} = require("./data-generator/temperatureGenerator");
+const _ = require("./data-generator");
 
-const nursingObs = nursingObsGenerator();
-nursingObs.temperatureArray = temperatureGenerator();
-console.log(nursingObs.temperatureArray);
+// nursing obs object
+const nursingObs = _.nursingObsGenerator();
+nursingObs.temperatureArray = _.temperatureGenerator();
+nursingObs.urineOutputArray = _.urineOutputGenerator();
+nursingObs.bloodGlucometerArray = _.bloodGlucometerGenerator();
+
+console.log(nursingObs.urineOutputArray.length);
