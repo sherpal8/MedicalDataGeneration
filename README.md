@@ -15,4 +15,4 @@ In general, most human markers are of a parametric character (i.e. with a normal
 
 It is of hope that this will be phase-1 of an ongoing project. Eventually, the aim is to create a proptotype that utilises machine learning to make rapid moment-by-moment clinical decicisions. Also, to help supplement as well as justify clinical decision making, thereby preventing litigation and making decision-making more trasparent epsecially for the most vulnerable.
 
-It is also possible that machine learning can be used to provide healthcare in isolated, overtly rural, and dangerous places where it is difficult to deploy sufficient numbers of qualified doctors. Perhaps,this may help achieve WHO's commitment to improving global access to quality heathcare.
+It is also possible that machine learning can be used to provide healthcare in isolated, overtly rural, and dangerous places where it is difficult to deploy sufficient numbers of qualified doctors. Perhaps, this may help achieve WHO's commitment to improving global access to quality heathcare.
