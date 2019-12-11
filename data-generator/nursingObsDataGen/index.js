@@ -3,9 +3,9 @@ const { temperatureGenerator } = require("./temperatureGenerator");
 const { urineOutputGenerator } = require("./urineOutputGenerator");
 const { bloodGlucometerGenerator } = require("./bloodSugarLevelGenerator");
 
-module.exports = {
-  nursingObsGenerator,
-  temperatureGenerator,
-  urineOutputGenerator,
-  bloodGlucometerGenerator
-};
+const nursingObsObj = nursingObsGenerator();
+nursingObsObj.temperatureArray = temperatureGenerator();
+nursingObsObj.urineOutputArray = urineOutputGenerator();
+nursingObsObj.bloodGlucometerArray = bloodGlucometerGenerator();
+
+module.exports = nursingObsObj;

@@ -1,9 +1,10 @@
-const _ = require("./data-generator");
+const nursingObsObj = require("./data-generator/nursingObsDataGen");
 
 // nursing obs object
-const nursingObs = _.nursingObsGenerator();
-nursingObs.temperatureArray = _.temperatureGenerator();
-nursingObs.urineOutputArray = _.urineOutputGenerator();
-nursingObs.bloodGlucometerArray = _.bloodGlucometerGenerator();
+console.log(Object.keys(nursingObsObj));
 
-console.log(nursingObs.urineOutputArray.length);
+// biochemistry value object
+// blood count and microscopy value object
+// arterial blood gas object
+// venous blood gas object
+// doctor assessment object
