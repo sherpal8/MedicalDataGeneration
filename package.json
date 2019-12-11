@@ -1,5 +1,5 @@
 {
-  "name": "healthtech",
+  "name": "synthetichealth",
   "version": "1.0.0",
   "description": "Creating health data",
   "main": "index.js",
@@ -10,5 +10,20 @@
   "license": "ISC",
   "dependencies": {
     "eslint": "^6.7.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherpal8/MedicalDataGeneration.git"
+  },
+  "keywords": [
+    "synthetic",
+    "health",
+    "data",
+    "generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/sherpal8/MedicalDataGeneration/issues"
+  },
+  "homepage": "https://github.com/sherpal8/MedicalDataGeneration#readme"
 }
