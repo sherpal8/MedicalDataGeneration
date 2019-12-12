@@ -1,7 +1,7 @@
 const nursingObsObj = require("./data-generator/nursingObsDataGen");
 const biochemObj = require("./data-generator/biochemDataGen");
 // nursing obs object
-console.log(biochemObj.ureaElectrolyteData.sodium);
+console.log(biochemObj.ureaElectrolyteData.potassium);
 
 // biochemistry value object
 // blood count and microscopy value object

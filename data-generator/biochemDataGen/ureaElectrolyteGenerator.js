@@ -18,6 +18,11 @@ const ureaElectrolyteGenerator = () => {
       ureaElectrolyteObj.sodium.push({ sodium: `${i} mmol/L` });
     }
     // K+ (n: 3.5 – 5.3 mmol/L)
+    if (i >= 24 && i <= 80) {
+      ureaElectrolyteObj.potassium.push({
+        potassium: `${(i / 10).toFixed(1)} mmol/L`
+      });
+    }
 
     // Cl- (n: 95 – 108 mmol/L)
     // Urea (n: 2.5 – 8.2 mmol/L)
