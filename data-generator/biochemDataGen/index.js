@@ -1,4 +1,8 @@
-const { liverFunctionArr } = require("./liverFunctionTestGenerator");
+const { liverFunctionGenerator } = require("./liverFunctionTestGenerator");
 const { ureaElectrolyteArr } = require("./ureaElectrolyteGenerator");
 
-module.exports = { liverFunctionArr, ureElectrolyteArr };
+const liverFunctionData = liverFunctionGenerator();
+
+console.log(liverFunctionData);
+
+module.exports = liverFunctionData;
